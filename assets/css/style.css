@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    line-height: 120%;
+}
+
+body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    background-color: #eee;
+    width: 50%;
+    margin: 10% auto;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+#accroche {
+    font-size: 1.3em;
+    margin: 0.3em 0;
+}
+
+#ennonce {
+    margin: 0.2em 0;
+    font-style: italic;
+}
+
+#gameMessages {
+    height: 40px;
+    border: 0px solid black;
+    margin: 0.5em 0;
+    display: flex;
+    align-items: center;
+}
+
+.red {
+    color: red;
+    font-weight: 700;
+}
+
+.green {
+    color: green;
+    font-weight: 700;
+}
+
+#mainForm {
+    margin: 1em 0;
+}
+
+button {
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    border: 0px;
+    border-radius: 25px;
+    padding: 0.5em 1em;
+}
+
+#ok {
+    background-color: blue;
+}
+
+#newGameFormContainer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+}
+
+#newGameForm {
+    color: blue;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 0.3em 0;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+th {
+    font-weight: 700;
+}
+
+th,
+td {
+    width: 20%;
+    border: 1px solid black;
+    padding: 1em;
+}
